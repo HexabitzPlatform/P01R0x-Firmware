@@ -48,7 +48,7 @@ void DMA_Init(void){
 
 	/* Initialize messaging RX DMAs x 6 - Update for non-standard MCUs */
 #ifdef _P1
-	DMA_MSG_RX_CH_Init(&msgRxDMA[0],DMA1_Channel4);
+	DMA_MSG_RX_CH_Init(&msgRxDMA[0],DMA1_Channel6);
 #endif
 #ifdef _P2
 	DMA_MSG_RX_CH_Init(&msgRxDMA[1],DMA1_Channel2);
