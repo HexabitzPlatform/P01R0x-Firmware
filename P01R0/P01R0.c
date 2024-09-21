@@ -560,7 +560,7 @@ Module_Status Module_MessagingTask(uint16_t code, uint8_t port, uint8_t src, uin
  */
 uint8_t GetPort(UART_HandleTypeDef *huart){
 
-	if(huart->Instance == USART4)
+	if(huart->Instance == USART6)
 		return P1;
 	else if(huart->Instance == USART2)
 		return P2;
