@@ -31,7 +31,7 @@ static uint16_t Array[__N][7] = {
 
 // Configurations for duplex serial ports
 #if ( _module == 1 )
-	#define	H01R0	1
+	#define 	P01R0	1
 	#define	_P1pol_reversed	1
 	#define	_P2pol_reversed	1
 	#define	_P3pol_reversed	1
