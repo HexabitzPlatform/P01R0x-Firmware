@@ -5,7 +5,7 @@
  File Name  : P01R0_inputs.c
  Description: Manages digital and analog inputs.
  Buttons: Add, remove, detect events (press, release, click, double-click).
- ADC: Reads analog inputs, temperature, voltage on ports P1, P2.
+ ADC: Reads analog inputs, temperature, voltage on ports P2, P3.
  */
 
 /* Includes ****************************************************************/
